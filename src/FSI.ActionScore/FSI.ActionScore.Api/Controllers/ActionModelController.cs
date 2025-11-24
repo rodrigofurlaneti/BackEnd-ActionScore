@@ -1,5 +1,4 @@
 ﻿using FSI.ActionScore.Application.Dtos;
-using FSI.ActionScore.Application.DTOs;
 using FSI.ActionScore.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 

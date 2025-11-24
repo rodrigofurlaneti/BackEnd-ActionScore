@@ -5,7 +5,7 @@ using FSI.ActionScore.Infrastructure.DependencyInjection;
 var builder = WebApplication.CreateBuilder(args);
 
 // AutoMapper
-builder.Services.AddAutoMapper(typeof(MappingProfile));
+builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
 
 // Application e Infrastructure (DDD)
 builder.Services.AddApplication();
