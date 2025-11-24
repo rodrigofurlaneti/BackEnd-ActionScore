@@ -1,0 +1,6 @@
+@FSI.ActionScore.Api_HostAddress = http://localhost:5241
+
+GET {{FSI.ActionScore.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
